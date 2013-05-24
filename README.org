@@ -10,3 +10,13 @@ Insert =[#story-id]= (and display the story title in the minibuffer) with
 Display the current story's title with =M-x current-story=.
 
 That's it.
+
+** Installing
+
+It's on [[http://marmalade-repo.org]], so you can =M-x package-install current-story=
+and then, in your =init.el=:
+
+#+BEGIN_SRC elisp
+  (require 'current-story)
+#+END_SRC
+
