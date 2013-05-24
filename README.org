@@ -1,0 +1,12 @@
+* Current-story
+
+Save the ID and title (or description) of your current Pivotal Tracker story
+with =M-x set-current-story= (you have to add these yourself; does not integrate
+with Pivotal Tracker.
+
+Insert =[#story-id]= (and display the story title in the minibuffer) with
+=M-x insert-current-story=.
+
+Display the current story's title with =M-x current-story=.
+
+That's it.
